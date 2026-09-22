@@ -1,0 +1,16 @@
+{
+  "name": "ts-test",
+  "version": "1.0.0",
+  "description": "TypeScript test project with Vitest",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "deploy:staging": "echo 'Deploying to staging...'"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  }
+}
